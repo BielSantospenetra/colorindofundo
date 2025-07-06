@@ -3,3 +3,42 @@
     height: 50px;
     border-radius: 30px;
 }
+
+#amarelo {
+    background-color: yellow;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+
+}
+
+
+
+
+#verde {
+    background-color: green;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+
+}
+#marrom {
+    background-color: brown;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+
+}
+#rosa {
+    background-color: pink;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+
+}
+#azul {
+    background-color: blue;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+
+#cinza {
+    background-color: gray;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+#preto {
+    background-color: black;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    color: white;
+}

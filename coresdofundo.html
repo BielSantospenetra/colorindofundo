@@ -14,11 +14,12 @@
 
 
 <button class="botao" id="amarelo"> amarelo </button>
-<button class="botao" >verde </button>
-<button class="botao">azul </button>
-<button class="botao"> rosa</button>
-<button class="botao"> vermelho </button>
-<button class="botao"> marrom </button>
+<button class="botao" id="verde" >verde </button>
+<button class="botao" id="marrom"> marrom </button>
+<button class="botao" id="rosa"> rosa</button>
+<button class="botao" id="azul"> azul</button>
+<button class="botao" id="cinza"> cinza </button>
+<button class="botao" id="preto"> preto </button>
 
 
 
@@ -28,6 +29,24 @@
 <script> 
     document.getElementById('amarelo').addEventListener( 'click', function() {
     document.body.style.backgroundColor =  "yellow";
+});
+    document.getElementById('verde').addEventListener( 'click', function() {
+    document.body.style.backgroundColor =  "green";
+});
+    document.getElementById('marrom').addEventListener('click', function() {
+    document.body.style.backgroundColor = 'brown';
+ });
+    document.getElementById('rosa').addEventListener('click', function() {
+    document.body.style.backgroundColor = 'pink';
+});
+    document.getElementById('azul').addEventListener('click', function() {
+    document.body.style.backgroundColor = 'blue';
+});
+    document.getElementById("cinza").addEventListener('click', function () {
+    document.body.style.backgroundColor = 'gray';
+});
+    document.getElementById('preto').addEventListener('click', function () {
+    document.body.style.backgroundColor = 'black';
 });
 
 </script>
